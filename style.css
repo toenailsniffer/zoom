@@ -4,13 +4,9 @@
     padding: 0;
 }
 
-html {
-    font-size: 16px;
-}
-
 body {
     font-family: Arial, sans-serif;
-    font-size: 1rem;
+    font-size: 16px;
     color: #222;
     background: #f5f7f5;
     line-height: 1.5;
@@ -19,48 +15,45 @@ body {
 .header {
     background: #4a7c59;
     color: #fff;
-    padding: 1rem 2rem;
+    padding: 15px 30px;
     display: flex;
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
-    gap: 1rem;
 }
 
 .logo {
     display: flex;
     align-items: center;
-    gap: 0.625rem;
+    gap: 10px;
     color: #fff;
     text-decoration: none;
 }
 
 .logo img {
-    width: 3.125rem;
-    height: 3.125rem;
+    width: 50px;
+    height: 50px;
     border-radius: 50%;
     object-fit: cover;
-    flex-shrink: 0;
 }
 
 .logo-text {
-    font-size: 1.5rem;
+    font-size: 24px;
     font-weight: bold;
 }
+
 .navigation .menu {
     display: flex;
     list-style: none;
-    gap: 1.25rem;
-    flex-wrap: wrap;
+    gap: 20px;
 }
 
 .navigation .menu a {
     color: #fff;
     text-decoration: none;
-    padding: 0.3125rem 0;
-    border-bottom: 0.125rem solid transparent;
+    padding: 5px 0;
+    border-bottom: 2px solid transparent;
     transition: border-color 0.2s;
-    font-size: 1rem;
 }
 
 .navigation .menu a:link,
@@ -76,44 +69,45 @@ body {
 .navigation .menu a:active {
     color: #d4edda;
 }
+
 .content {
-    max-width: 70rem;
-    margin: 1.25rem auto;
-    padding: 0 1.25rem 2.5rem;
-    width: 100%;
+    width: 1100px;
+    max-width: 100%;
+    margin: 20px auto;
+    padding: 0 20px 40px;
 }
 
 h1 {
-    font-size: 2rem;
-    margin-bottom: 1.25rem;
+    font-size: 32px;
+    margin-bottom: 20px;
     color: #2f5a3d;
 }
 
 h2 {
-    font-size: 1.5rem;
-    margin: 1.25rem 0 0.9375rem;
+    font-size: 24px;
+    margin: 20px 0 15px;
     color: #2f5a3d;
 }
 
 h3 {
-    font-size: 1.125rem;
-    margin: 0.625rem 0 0.3125rem;
+    font-size: 18px;
+    margin: 10px 0 5px;
     color: #2f5a3d;
 }
 
 p {
-    margin-bottom: 0.625rem;
+    margin-bottom: 10px;
 }
+
 .button {
     display: inline-block;
     background: #4a7c59;
     color: #fff;
-    padding: 0.625rem 1.25rem;
-    border-radius: 0.375rem;
+    padding: 10px 20px;
+    border-radius: 6px;
     text-decoration: none;
-    margin-top: 0.625rem;
+    margin-top: 10px;
     transition: background 0.2s;
-    font-size: 1rem;
 }
 
 .button:link,
@@ -131,56 +125,57 @@ p {
 
 .card-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
-    gap: 1.25rem;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
 }
 
 .card {
     background: #fff;
-    border-radius: 0.625rem;
-    padding: 0.9375rem;
-    box-shadow: 0 0.125rem 0.375rem rgba(0, 0, 0, 0.08);
+    border-radius: 10px;
+    padding: 15px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
 }
 
 .card img {
     width: 100%;
-    height: 11.25rem;
+    height: 180px;
     object-fit: cover;
-    border-radius: 0.5rem;
-    margin-bottom: 0.625rem;
+    border-radius: 8px;
+    margin-bottom: 10px;
     display: block;
 }
 
 .price {
     color: #c0392b;
     font-weight: bold;
-    margin-top: 0.5rem;
+    margin-top: 8px;
 }
 
 .features {
-    font-size: 0.8125rem;
+    font-size: 13px;
     color: #555;
 }
+
 .info-list {
-    margin: 0.625rem 0 1.25rem 1.25rem;
+    margin: 10px 0 20px 20px;
 }
 
 .info-list li {
-    margin: 0.3125rem 0;
+    margin: 5px 0;
 }
+
 .price-table {
     display: flex;
     flex-direction: column;
-    border: 0.0625rem solid #ccc;
-    border-radius: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 8px;
     overflow: hidden;
     background: #fff;
 }
 
 .price-row {
     display: flex;
-    border-bottom: 0.0625rem solid #ccc;
-    flex-wrap: wrap;
+    border-bottom: 1px solid #ccc;
 }
 
 .price-row:last-child {
@@ -188,11 +183,9 @@ p {
 }
 
 .price-cell {
-    flex: 1 1 25%;
-    padding: 0.625rem;
-    border-right: 0.0625rem solid #ccc;
-    word-wrap: break-word;
-    font-size: 1rem;
+    flex: 1;
+    padding: 10px;
+    border-right: 1px solid #ccc;
 }
 
 .price-cell:last-child {
@@ -208,31 +201,36 @@ p {
 .price-row.hit  { background: #d4edda; }
 .price-row.sale { background: #fff3cd; }
 .price-row.new  { background: #d1ecf1; }
+
 .map {
-    margin: 1.25rem 0;
+    margin: 20px 0;
 }
 
 .map iframe {
     width: 100%;
-    height: 22rem;
+    height: 350px;
     border: none;
-    border-radius: 0.625rem;
+    border-radius: 10px;
     display: block;
 }
-@media (max-width: 48rem) {
+
+@media (max-width: 768px) {
+    .content {
+        width: 100%;
+    }
+
+    .card-grid {
+        grid-template-columns: 1fr;
+    }
+
     .header {
         flex-direction: column;
-        align-items: center;
+        gap: 10px;
     }
 
     .navigation .menu {
         justify-content: center;
-    }
-}
-
-@media (max-width: 30rem) {
-    .card-grid {
-        grid-template-columns: 1fr;
+        flex-wrap: wrap;
     }
 
     .price-row {
@@ -241,7 +239,7 @@ p {
 
     .price-cell {
         border-right: none;
-        border-bottom: 0.0625rem solid #ccc;
+        border-bottom: 1px solid #ccc;
     }
 
     .price-cell:last-child {
