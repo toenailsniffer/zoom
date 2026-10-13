@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>О компании — ЗооМир</title>
+    <title>ЗооМир — магазин товаров для животных</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
@@ -13,6 +13,7 @@
         <img src="images/logo.png" alt="Логотип ЗооМир">
         <span class="logo-text">ЗооМир</span>
     </a>
+
     <nav class="navigation">
         <ul class="menu">
             <li><a href="index.html">Главная</a></li>
@@ -25,35 +26,49 @@
 
 <main class="content">
 
-    <h1>О компании «ЗооМир»</h1>
-    <p>Магазин «ЗооМир» работает с 2015 года. Мы предлагаем товары для домашних
-       животных: кошек, собак, птиц, грызунов и рыб.</p>
-
-    <section>
-        <h2>Основные показатели деятельности</h2>
-        <ul class="info-list">
-            <li>Более 5 000 наименований товаров</li>
-            <li>12 магазинов в 5 городах России</li>
-            <li>Более 50 000 довольных клиентов</li>
-            <li>Собственный интернет-магазин с доставкой</li>
-        </ul>
+    <section class="intro">
+        <h1>Всё для ваших питомцев</h1>
+        <p>Корма, игрушки, амуниция и аксессуары для кошек, собак, птиц и рыб.
+           Более 5000 товаров и доставка по всей России.</p>
+        <a class="button" href="catalog.html">Перейти в каталог</a>
     </section>
 
-    <section class="contacts">
-        <h2>Контактная информация</h2>
-        <ul class="info-list">
-            <li>Адрес: г. Москва, ул. Зоологическая, д. 15</li>
-            <li>Телефон: +7 (495) 123-45-67</li>
-            <li>Email: info@zooshop.ru</li>
-            <li>Режим работы: Пн–Вс, 9:00–21:00</li>
-        </ul>
+    <section class="services">
+        <h2>Категории</h2>
+        <div class="card-grid">
+            <div class="card">
+                <h3>Корма</h3>
+                <p>Премиум-класс от ведущих брендов.</p>
+            </div>
+            <div class="card">
+                <h3>Игрушки</h3>
+                <p>Для активных и спокойных питомцев.</p>
+            </div>
+            <div class="card">
+                <h3>Другое</h3>
+                <p>Поводки, шлейки, переноски.</p>
+            </div>
+        </div>
+    </section>
 
-        <h3>Как нас найти</h3>
-        <div class="map">
-            <iframe
-                src="https://yandex.ru/map-widget/v1/?ll=37.617700%2C55.755800&z=12"
-                allowfullscreen>
-            </iframe>
+    <section class="popular">
+        <h2>Популярные товары</h2>
+        <div class="card-grid">
+            <div class="card">
+                <img src="images/cat-food.png" alt="Корм Royal Canin для кошек">
+                <h3>Корм Royal Canin</h3>
+                <p class="price">1290 ₽</p>
+            </div>
+            <div class="card">
+                <img src="images/toy-ball.png" alt="Мячик с колокольчиком">
+                <h3>Мячик с колокольчиком</h3>
+                <p class="price">350 ₽</p>
+            </div>
+            <div class="card">
+                <img src="images/dog-bed.png" alt="Лежанка для собак">
+                <h3>Лежанка для собак</h3>
+                <p class="price">2450 ₽</p>
+            </div>
         </div>
     </section>
 
