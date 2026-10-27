@@ -4,10 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Каталог — ЗооМир</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="styles.css" id="main-styles">
+    <link rel="stylesheet" href="" id="alt-styles" disabled>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
 </head>
 <body>
-
 <header class="header">
     <a class="logo" href="index.html">
         <img src="images/logo.png" alt="Логотип ЗооМир">
@@ -22,62 +23,18 @@
         </ul>
     </nav>
 </header>
-
 <main class="content">
-
     <h1>Каталог товаров</h1>
-
-    <div class="card-grid">
-        <div class="card">
-            <img src="images/cat-food.png" alt="Корм Royal Canin для кошек">
-            <h2>Корм Royal Canin для кошек</h2>
-            <p>Полнорационный сухой корм для взрослых кошек.</p>
-            <p class="features"><strong>Характеристики:</strong> белки 32%, жиры 15%, вес 2 кг</p>
-            <p class="price">1290 ₽</p>
-        </div>
-
-        <div class="card">
-            <img src="images/toy-ball.png" alt="Мячик с колокольчиком">
-            <h2>Игрушка «Мячик с колокольчиком»</h2>
-            <p>Яркий мячик для активных игр с кошкой.</p>
-            <p class="features"><strong>Характеристики:</strong> диаметр 5 см, безопасный пластик</p>
-            <p class="price">350 ₽</p>
-        </div>
-
-        <div class="card">
-            <img src="images/dog-bed.png" alt="Лежанка для собак">
-            <h2>Лежанка для собак средних пород</h2>
-            <p>Мягкая лежанка с бортиками, съёмный чехол.</p>
-            <p class="features"><strong>Характеристики:</strong> 80×60 см, ткань — велюр</p>
-            <p class="price">2450 ₽</p>
-        </div>
-
-        <div class="card">
-            <img src="images/leash.png" alt="Поводок-рулетка 5 метров">
-            <h2>Поводок-рулетка 5 м</h2>
-            <p>Удобный поводок-рулетка с тормозом.</p>
-            <p class="features"><strong>Характеристики:</strong> длина 5 м, до 25 кг</p>
-            <p class="price">890 ₽</p>
-        </div>
-
-        <div class="card">
-            <img src="images/aquarium.png" alt="Аквариум 30 литров с фильтром">
-            <h2>Аквариум 30 л с фильтром</h2>
-            <p>Комплект для начинающего аквариумиста.</p>
-            <p class="features"><strong>Характеристики:</strong> 30 л, LED-подсветка, фильтр</p>
-            <p class="price">3990 ₽</p>
-        </div>
-
-        <div class="card">
-            <img src="images/bird-cage.png" alt="Клетка для попугая">
-            <h2>Клетка для попугая</h2>
-            <p>Просторная клетка с жёрдочками и поилкой.</p>
-            <p class="features"><strong>Характеристики:</strong> 50×40×60 см, 2 жёрдочки</p>
-            <p class="price">2200 ₽</p>
+    <button id="accessibility-btn" class="accessibility-button" type="button">
+        Версия для слабовидящих
+    </button>
+    <div class="catalog-layout">
+        <aside id="filters" class="filters">
+        </aside>
+        <div id="elements" class="card-grid">
         </div>
     </div>
-
 </main>
-
+<script src="js/filter.js"></script>
 </body>
 </html>
