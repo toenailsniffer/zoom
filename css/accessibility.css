@@ -1,0 +1,141 @@
+{\rtf1\ansi\ansicpg1251\cocoartf2870
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;;}
+\paperw11900\paperh16840\margl1440\margr1440\vieww11520\viewh8400\viewkind0
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+
+\f0\fs24 \cf0 body.accessibility-mode \{\
+    background: #000 !important;\
+    color: #fff !important;\
+    font-size: 24px !important;\
+    line-height: 2 !important;\
+    letter-spacing: 0.05em;\
+\}\
+\
+body.accessibility-mode .header,\
+body.accessibility-mode .navigation,\
+body.accessibility-mode .menu \{\
+    background: #000 !important;\
+    border-bottom: 2px solid #ffff00 !important;\
+\}\
+\
+body.accessibility-mode .header a,\
+body.accessibility-mode .navigation a,\
+body.accessibility-mode .menu a \{\
+    color: #ffff00 !important;\
+    text-decoration: underline !important;\
+    font-size: 24px !important;\
+\}\
+\
+body.accessibility-mode .logo-text \{\
+    color: #ffff00 !important;\
+    font-size: 32px !important;\
+\}\
+\
+body.accessibility-mode .logo img \{\
+    width: 80px !important;\
+    height: 80px !important;\
+    border: 3px solid #ffff00;\
+\}\
+\
+body.accessibility-mode h1 \{\
+    color: #ffff00 !important;\
+    font-size: 40px !important;\
+    margin: 30px 0 !important;\
+\}\
+\
+body.accessibility-mode h2 \{\
+    color: #ffff00 !important;\
+    font-size: 32px !important;\
+\}\
+\
+body.accessibility-mode h3 \{\
+    color: #ffff00 !important;\
+    font-size: 28px !important;\
+\}\
+\
+body.accessibility-mode p,\
+body.accessibility-mode li,\
+body.accessibility-mode span,\
+body.accessibility-mode div,\
+body.accessibility-mode label \{\
+    color: #fff !important;\
+    font-size: 24px !important;\
+\}\
+\
+body.accessibility-mode a,\
+body.accessibility-mode a:visited \{\
+    color: #00ffff !important;\
+    text-decoration: underline !important;\
+\}\
+\
+body.accessibility-mode a:hover \{\
+    color: #ffff00 !important;\
+    background: #333 !important;\
+\}\
+\
+body.accessibility-mode .card,\
+body.accessibility-mode .filters,\
+body.accessibility-mode .price-table \{\
+    background: #111 !important;\
+    border: 2px solid #ffff00 !important;\
+    color: #fff !important;\
+\}\
+\
+body.accessibility-mode .card img \{\
+    border: 3px solid #ffff00;\
+    height: auto !important;\
+    max-height: 300px !important;\
+\}\
+\
+body.accessibility-mode .price \{\
+    color: #ffff00 !important;\
+    font-size: 28px !important;\
+\}\
+\
+body.accessibility-mode .features \{\
+    color: #ccc !important;\
+    font-size: 22px !important;\
+\}\
+\
+body.accessibility-mode .filter-title \{\
+    color: #ffff00 !important;\
+    font-size: 28px !important;\
+    margin-top: 20px !important;\
+    border-bottom: 2px solid #ffff00 !important;\
+    padding-bottom: 8px !important;\
+\}\
+\
+body.accessibility-mode .filter-label \{\
+    display: block !important;\
+    padding: 10px 0 !important;\
+    font-size: 22px !important;\
+\}\
+\
+body.accessibility-mode .filter-label input \{\
+    width: 24px !important;\
+    height: 24px !important;\
+    margin-right: 12px !important;\
+\}\
+\
+body.accessibility-mode .accessibility-button,\
+body.accessibility-mode .reset-button \{\
+    background: #ffff00 !important;\
+    color: #000 !important;\
+    border: 2px solid #fff !important;\
+    font-size: 20px !important;\
+    padding: 12px 24px !important;\
+    font-weight: bold !important;\
+\}\
+\
+body.accessibility-mode .disabled \{\
+    opacity: 0.5 !important;\
+\}\
+\
+body.accessibility-mode .empty \{\
+    color: #ffff00 !important;\
+    font-size: 28px !important;\
+    padding: 40px !important;\
+    border: 2px dashed #ffff00 !important;\
+\}}
